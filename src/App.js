@@ -55,6 +55,7 @@ class App extends React.Component {
   setUpdate(text,key){
     console.log("items:"+this.state.items);
     const items = this.state.items;
+      // eslint-disable-next-line
     items.map(item=>{      
       if(item.key===key){
         console.log(item.key +"    "+key)
